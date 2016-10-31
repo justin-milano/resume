@@ -1,0 +1,198 @@
+\documentclass[10pt]{article}
+\usepackage[margin=3cm]{geometry}
+\usepackage{hyperref}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+
+% \usepackage{bibentry}
+% \bibliographystyle{plain}
+% \nobibliography*
+
+\usepackage{multicol}
+\usepackage{enumitem}
+\newenvironment{myitemize}
+{ \begin{itemize}[topsep=0pt]
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  } 
+
+\newenvironment{skillitemize}
+{ \begin{itemize}[topsep=0pt,label={}]
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\parsep}{0pt}     }
+{ \end{itemize}                  }
+
+\newcommand{\breakrule}{
+  	\color{lightgray}
+  	\vspace{-4pt}
+	\begin{center}
+		\noindent\rule{7cm}{0.5pt}
+	\end{center}
+	}
+
+
+% title
+\title{\bfseries\Huge Justin Milano}
+\author{milanojustin@gmail.com}
+\date{}
+
+\begin{document}
+
+% title
+\begin{center}
+	{\bf \Huge Justin Milano}\\
+	\vspace{5pt}
+	{\bf \large milanojustin@gmail.com}\\
+  {\bf \large (801) 560-9587}
+\end{center}
+%\vspace{5mm}
+
+\vspace{-5pt}
+\section*{Professional Experience}
+
+\noindent
+{\large {\bf Summary}} \\
+IT professional with experience in network design, documentation, and maintenance. Expertise in Linux administration, strong problem solving skills, and the ability to prioritize responsibilities and timelines. Work well in a teaming environment. \\
+
+\noindent
+{\large {\bf Operations Engineer}, Western Governors University\hfill Oct. 2015-Present } \\
+{\bf Responsibilities:}
+\begin{myitemize}
+  \item Administration and maintenance of Attlassian software suite including:
+    \begin{itemize}
+      \item Jira
+      \item Confluence
+      \item Bitbucket
+      \item Bamboo
+      \item Crowd
+    \end{itemize}
+  \item Chef automation
+\end{myitemize} 
+{\bf Projects:}
+\begin{myitemize}
+  \item Consolidation of two independent Confluence instances.
+  \item Consolidation of two independent Jira instances.
+  \item Chef wrapper cookbook for auto-scaling elasticsearch cluster
+\end{myitemize} 
+{\breakrule}
+
+\noindent
+{\large {\bf Infrastructure Engineer}, Discovery Research Group \hfill Aug. 2013-Sep. 2015 } \\
+{\bf Responsibilities:}
+\begin{myitemize}
+  \item Managed and maintained a farm of 20 physical servers in a lights out datacenter.
+  \item Managed and maintained VMware ESX cluster hosting 41 virtual machines.
+  \item Administration of Debian GNU/Linux systems. (Most of our systems fell into this category.)
+  \item Administration of RedHat GNU/Linux systems. (We had a handful of these systems. They were all used to run some version of Asterisk.)
+  \item Administration of Windows Server 2008 systems. (We had a handful of these systems. Their purposes included: Domain controllers, file servers, Terminal Services servers, and Veeam backup.)
+  \item Administration of Windows 7 workstations for end users.
+\end{myitemize} 
+{\bf Projects:}
+\begin{myitemize}
+  \item Implementation of OTRS as a change management database.
+  \item Reorganization of all physical components in our rack space at the data center.
+  \item Implementation of Ansible for automating administration of our GNU/Linux hosts.
+  \item Implementation of quarterly Nessus vulnerability scans.
+\end{myitemize} 
+
+{\breakrule}
+
+\noindent
+{\large {\bf Linux Administrator}, HostGator\hfill Aug. 2013-Apr. 2014 } \\
+{\bf Responsibilities:}
+\begin{myitemize}
+  \item Tier 1 email support of Apache, Mysql, Bind, cPanel, OpenVZ, WordPress and various other content management systems.
+\end{myitemize} 
+
+{\breakrule}
+
+\noindent
+{\large {\bf Independent Contractor}, ForeverGreen\hfill Sep. 2011-Apr. 2012 } \\
+{\bf Responsibilities:}
+\begin{myitemize}
+  \item Network analysis and documentation.
+  \item End user support.
+\end{myitemize} 
+{\bf Projects:}
+\begin{myitemize}
+  \item Documentation of the layout of the network that they inherited from a related company.
+\end{myitemize} 
+
+{\breakrule}
+
+\noindent
+{\large {\bf Systems Administrator}, Maakoa\hfill Aug. 2010-Apr. 2011 } \\
+{\bf Responsibilities:}
+\begin{myitemize}
+  \item Administration of a handful of servers in a small office environment. (Mostly Windows Server systems for AD, file shares, etc.)
+  \item End user Support.
+\end{myitemize} 
+{\bf Projects:}
+\begin{myitemize}
+ \item Development of a web application that interacted with a financial institution via their API. This was run on a Windows server but utilized Apache, MySQL, and Perl.
+\end{myitemize} 
+
+{\breakrule}
+
+\noindent
+{\large {\bf Computer Lab Assistant}, Jordan School District\hfill Sep. 2003-May. 2005 } \\
+{\bf Responsibilities:}
+\begin{myitemize}
+  \item  Instructed and assisted students in the lab.
+  \item  Various end user support tasks for teachers and faculty.
+\end{myitemize} 
+
+\section*{Skills}
+
+\begin{minipage}[ht]{0.48\textwidth}
+	{\bf Server Administration}
+	\begin{skillitemize}
+		\item GNU/Linux (RedHat, Debian, BSD)
+		\item Windows Server
+		\item VMware ESX
+		\item Apache
+		\item Nginx
+		\item MySQL
+		\item cPanel
+	\end{skillitemize}
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+	{\bf Scripting/Automation}
+	\begin{skillitemize}
+		\item Bash
+		\item Python
+		\item Python
+		\item Perl
+		\item Ansible
+    \item Chef
+    \item 
+	\end{skillitemize}
+\end{minipage}
+
+\vspace{8pt}
+\noindent
+\begin{minipage}[ht]{0.48\textwidth}
+	{\bf Network Administration}
+	\begin{skillitemize}
+		\item iptables
+		\item Bind (DNS)
+		\item PF(Open BSD's Packet Filter)
+		\item Nessus
+	\end{skillitemize}
+\end{minipage}
+
+\section*{Education/Certifications}
+\begin{myitemize}
+	\item Bachelor of Science in Computer Science, Weber State University (2010)
+  \item Tenable Certified Nessus Auditor. (Received 5/14)
+\end{myitemize}
+\section*{References}
+\begin{myitemize}
+  \item Chris Sohns (Discovery Research Group) - (970) 980-4380
+  \item Josh Staley (Western Governors University) - (801) 699-3440
+  \item Mark Kimmig (Personal) - (801) 599-0800
+\end{myitemize}
+\end{document}
