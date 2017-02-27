@@ -1,30 +1,27 @@
 \documentclass[10pt]{article}
+% use pdflatex command and not pdftex
 \usepackage[margin=3cm]{geometry}
 \usepackage{hyperref}
-
 \usepackage{array, xcolor}
 \definecolor{lightgray}{gray}{0.8}
-
 % \usepackage{bibentry}
 % \bibliographystyle{plain}
 % \nobibliography*
-
 \usepackage{multicol}
 \usepackage{enumitem}
 \newenvironment{myitemize}
 { \begin{itemize}[topsep=0pt]
+  	\vspace{-4pt}
     \setlength{\itemsep}{0pt}
     \setlength{\parskip}{0pt}
     \setlength{\parsep}{0pt}     }
 { \end{itemize}                  } 
-
 \newenvironment{skillitemize}
 { \begin{itemize}[topsep=0pt,label={}]
     \setlength{\itemsep}{0pt}
     \setlength{\parskip}{0pt}
     \setlength{\parsep}{0pt}     }
 { \end{itemize}                  }
-
 \newcommand{\breakrule}{
   	\color{lightgray}
   	\vspace{-4pt}
@@ -32,15 +29,12 @@
 		\noindent\rule{7cm}{0.5pt}
 	\end{center}
 	}
-
-
 % title
 \title{\bfseries\Huge Justin Milano}
 \author{milanojustin@gmail.com}
 \date{}
 
 \begin{document}
-
 % title
 \begin{center}
 	{\bf \Huge Justin Milano}\\
@@ -49,7 +43,6 @@
   {\bf \large (801) 560-9587}
 \end{center}
 %\vspace{5mm}
-
 \vspace{-5pt}
 \section*{Professional Experience}
 
@@ -69,7 +62,9 @@ IT professional with experience in network design, documentation, and maintenanc
       \item Bamboo
       \item Crowd
     \end{itemize}
+  \item Managed and maintained various RedHat GNU/Linux nodes.
   \item Chef automation
+  \item Participation in on-call rotation
 \end{myitemize} 
 {\bf Projects:}
 \begin{myitemize}
