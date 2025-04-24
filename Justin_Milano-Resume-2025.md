@@ -10,7 +10,7 @@ IT professional with expertise in Linux administration, strong problem solving s
 
 SKILLS
 ------
-- __Server Administration__: GNU/Linux (RedHat, Debian, BSD), Windows server, VMware ESX,  Asterisk, Apache, Nginx, MySQL
+- __Server Administration__: GNU/Linux (RedHat, Debian, BSD), Windows server, VMware ESX, Asterisk, Apache, Nginx, MySQL
 - __Scripting & Automation__: Salt, Ansible, Python, Bash
 - __Network Administration__: Nessus, Bind (DNS), iptables
 
@@ -33,7 +33,7 @@ PROFESSIONAL EXPERIENCE
 |<u>Linux Engineer</u>| |
 |Managed and maintained 200+ virtualized GNU/Linux nodes.| |
 
-- Engineered/administered/maintained our  SaltStack configuration management
+- Engineered/administered/maintained SaltStack configuration management system
 - Developed and maintained Ansible roles/playbooks
 - Developed software build automation in Jenkins
 
@@ -43,7 +43,7 @@ PROFESSIONAL EXPERIENCE
 |<u>DevOps Engineer</u>| |
 |Managed 100+ GNU/Linux nodes, and contributed to configuration management automation.| |
 
-- Administration and maintenance of the Attlassian software suite including: Jira,  Confluence,  Bitbucket, Bamboo, Crowd
+- Administration and maintenance of the Attlassian software suite including: Jira, Confluence, Bitbucket, Bamboo, Crowd
 - Developed and maintained various Chef cookbooks and wrapper cookbooks.
 
 |<img width=2048/>|<img/>|
@@ -53,7 +53,7 @@ PROFESSIONAL EXPERIENCE
 |Managed and maintained a farm of 20+ physical servers in a lights out datacenter| |
 
 - Administration of Debian and RedHat GNU/Linux systems
-- Implementation of Ansible for automating administration of our GNU/Linux hosts
+- Implementation of Ansible for automating administration of GNU/Linux hosts
 - Implementation of quarterly Nessus vulnerability scans
 
 |<img width=2048/>|<img/>|
